@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+int main ()
+{
+	int a, b, c, i, j, k, l, m;
+    cin >>a;
+    for (i=1;a>=i;i++){
+    b=2*i-1;
+    for(k=a-1;i<=k;k--)
+    {cout<<" ";}
+    for (j=1;b>=j;j++)
+    {cout<<"O";}
+    cout<<endl;}
+    for (i=1;a-1>=i;i++)
+    {for (l=1;a-1>=l;l++)
+    {{cout<<" ";}}
+    cout<<"O"<<endl;}
+    for (m=1;a*2-1>=m;m++)
+    {cout<<"O";}
+}
