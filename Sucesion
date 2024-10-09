@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+int main ()
+{
+int n,Ex;
+cout<<"ingrese el digito";
+cin>>n;
+int A=0
+for(int i=1;i<=n;i++)
+{
+cin>>Ex;
+A=A+Ex;
+cout<<i;
+}
+cout<<A/n;
+}
+return 0;
+}
