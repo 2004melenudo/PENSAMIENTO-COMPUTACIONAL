@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+int main ()
+{
+int A,n;
+cout<<"leer sumatoria de numeros";
+cin>>n;
+A=0
+for(int i=1;i<=n;i++)
+{
+A=A+2*i+5;
+}
+cout<<A;
+return 0;
+}
