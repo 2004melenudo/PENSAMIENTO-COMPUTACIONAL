@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int a,b,n;
+    cout<<"ingrese la cantidad de numeros ";
+    cin>>n;
+    a=1;
+    b=1;
+    for(int i=1;i<=n;i+=2)
+  {
+      cout<<a<<",";
+       if(i+1<=n) {
+           cout <<b*b<<",";
+        }
+           a++;
+           b++;
+      } 
+  cout<<endl;
+  return 0;
+}
