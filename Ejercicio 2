@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+int A,B,X;
+cout<<"ingrese X";
+cin>>"x"
+A=(3.5*11)*X;
+B=(7.5*11)*X
+cout<<"el valor de A es";
+cout<<"A";
+cout<<"el valor de B es";
+cout<<"B";
+}
+return 0
+}
